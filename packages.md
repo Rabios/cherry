@@ -66,7 +66,7 @@ return {
 }
 ```
 
-#### Optional properties
+#### Required properties
 
 - `_NAME` (string): Name of package.
 - `_URL` (string): online site of package (Or repo link)
@@ -80,7 +80,7 @@ return {
 - `package.src` (table): Table contains Lua files paths from package directory.
 - `package.main` (string): Main file that can be run if package is app.
 
-#### Non-Optional properties
+#### Optional properties
 
 - `_LUA` (number): Lua version limit for package.
 - `_CHERRY` (number): Cherry version limit for package.
